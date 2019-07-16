@@ -1,0 +1,84 @@
+body{
+    background-image: url('../images/forgot.png');
+    margin:0;
+    padding:0;
+    max-width:120rem;
+    margin:0 auto;
+    background-size: cover;
+}
+h1{
+    text-align: center;
+}
+h3{
+	text-align:center;
+	color: red;
+	font-size: 20px;
+}
+#wrapper{
+    background-color: rgba(255, 255, 255, 0.75);
+    border:2px solid greenyellow;
+    height: 650px;
+    margin: 8% 30%;
+}
+
+#wrapper .recover-wrapper h1{
+    font-size:50px;
+    text-align: center;
+    padding: 3%;
+}
+
+#wrapper .recover-wrapper p{
+    text-align: center;
+    font-size:30px;
+    
+}
+
+#send-email{
+    margin-top:30px;
+}
+
+#send-email p{
+    margin-left:5%;
+}
+
+
+input[type=text] {
+    width: 70%;
+    display: block;
+    border:5px solid lightskyblue;
+    padding:3% 1%;
+    margin:0 auto;
+}
+
+input[type=submit] {
+    margin-top:5%;
+    border:1px solid gray;
+    background-color: burlywood;
+    font-size: 20px;
+    margin-left:10%;
+}
+
+input[type=text]:hover { 
+    background-color: ghostwhite;
+}
+
+input[type=submit]:hover { 
+    background-color: lightcoral;
+}
+
+#send-email{
+    margin-top:50px;
+}
+
+#send-email p{
+    font-size: 20px;
+}
+
+#send-email a{
+    float:left;
+}
+
+.returnlogin{
+    margin-top:20px;
+    margin-left:10%;
+}

@@ -1,0 +1,372 @@
+body{
+	max-width: 120rem;
+	margin:0 auto;
+	font-family: Arial, Helvetica, sans-serif;
+	background-image: url("../images/window.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+h1{
+	margin:0px;
+	margin-bottom:10px;
+	text-align: center;
+	font-size:50px;
+    border: 15px solid;
+	border-color: rgba(255, 255, 255, 0.2);
+	background-color: rgba(255, 255, 255, 0.5);
+	font-style: italic;
+}
+
+/* main navigation */
+#main-navbar{
+	line-height: 2;
+}
+#main-navbar .space{
+	height: 20px;
+}
+#main-navbar ul{
+	text-align: right;
+	padding:0px;
+	margin:0px;
+	list-style-type: none;
+}
+#main-navbar li{
+	display:inline;
+} 
+#main-navbar li a{	
+	color:lightgoldenrodyellow;
+	text-decoration: none;
+	padding: 2px 10px;
+} 
+#main-navbar li a:hover { 
+	color: rgb(0, 217, 255);
+  }
+
+
+
+
+/* slide-menu */
+.open-slide{
+	background-color: #3b5998;
+}
+
+.side-nav{
+	height:100%;
+	width:0;
+	position:fixed;
+	z-index:1;
+	top:0;
+	left:0;
+	background-color: #111;
+	opacity:0.9;
+	overflow-x:hidden;
+	padding-top:60px;
+	transition:0.5s;
+}
+
+.side-nav a{
+	padding:10px 10px 10px 30px;
+	text-decoration: none;
+	font-size:22px;
+	color:#ccc;
+	display:block;
+	transition:0.3s;
+}
+
+.side-nav a:hover{
+	color:#fff;
+	
+}
+
+.side-nav .btn-close{
+	position:absolute;
+	top:0;
+	right:22px;
+	font-size:36px;
+	margin-left:50px;
+}
+
+#main{
+	transition:margin-left 0.5s;
+	padding:20px;
+	overflow:hidden;
+	width:100%;
+}
+
+/* navigation */
+fieldset{
+	border:none;
+}
+.navbar{
+	overflow: hidden;
+	font-family: Arial, Helvetica, sans-serif;
+	display:flex;
+	justify-content: center;
+	padding:10px;
+}
+
+
+.navbar a {
+	float: left;
+	height:30px;
+	color: black;
+	text-align: center;
+	padding: 14px 20px;
+	text-decoration: none;
+}
+
+
+.navbar a:hover{
+	background-color: lightgray;
+}
+
+/* dropdown */
+.dropdown .dropbtn{
+	background-color:#3C3E54;
+	outline: none;
+	color: white;
+	width:260px;
+	height:60px;
+	font-family: inherit;
+	font-weight: bold;
+}
+
+.dropdown a{
+	padding-top:18px;
+	padding-bottom:18px;
+	font-size: 15px;
+}
+
+/* button navagation */
+button{
+	border:none;	
+	text-decoration: none;
+	
+	margin:0;
+}
+
+.dropdown-content{
+	float: left;
+	overflow: hidden;
+}
+
+.dropdown-content a:hover{
+	background-color: #ddd;
+}
+.dropdown:hover .dropdown-content{
+	display: block;
+}
+.dropdown-content{
+	display: none;
+	position: absolute;
+	background-color: #f9f9f9;
+	min-width: 260px;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	z-index: 1;
+}
+
+.dropdown-content a {
+	float: none;
+	color: black;
+	padding: 12px 0;
+	display: block;
+	text-align: center;
+}
+
+h2, h3{
+	margin:10px 0px;;
+	text-align: center;
+	font-size:35px;
+    border: 15px solid;
+	border-color: rgba(255, 255, 255, 0.2);
+	background-color: rgba(255, 255, 255, 0.5);
+	font-style: italic;
+}
+
+
+/* gallary */
+.gallery:hover {
+	border: 5px solid #777;
+	border-color: rgba(255, 255, 255, 0.10);
+	background-color: rgba(255, 255, 255, 0.80);
+}
+
+
+/* thumnail pictures */
+#thumbnails{
+	display:flex;
+	margin-top:50px;
+	margin: auto;
+    max-width: 1024px;
+}
+#thumbnails > div{
+	flex-grow:1;
+	margin-right:3em;
+	margin-left:3rem;
+}
+#thumbnails .firstpic img{
+	margin-top:50px;
+	width: 100%;
+}
+
+
+#thumbnails .secondpic {
+	max-width:41%;
+}
+
+#thumbnails .secondpic img{
+	margin-top:50px;
+	width: 100%;
+}
+
+#thumbnails .desc:hover {
+	border: 10px solid #777;
+	border-color: rgba(255, 255, 255, 0.10);
+	background-color: rgba(255, 255, 255, 0.80);
+}
+
+#thumbnails .desc {
+    margin-bottom:60px;
+	text-align: center;
+	font-size: 19px;
+	opacity: 0;
+	width: 95%;
+	transition: 0.5s;
+  }
+ 
+#thumbnails .desc:hover {
+	 opacity: 1;
+ } 
+ 
+
+
+/* footer */
+#footer{
+	margin-top:100px;
+	padding:100px 30px;
+	border-top:5px solid darkkhaki;
+	color: whitesmoke;
+	text-align: center;
+	display: block;
+}
+#footer ul{
+	padding:0;
+}
+/* linked in and GitHub logo */
+#footer .Linkedin{
+	background-image:url("./images/Linkedin.png");
+	background-size: cover;
+	margin-right:30px;
+}
+#footer .GibHub{
+	background-image:url("./images/Github.png");
+	background-size: cover;
+	margin-right:30px;	
+}
+
+.recipename{
+	font-family:sans-serif;
+	font-size:1.5em;
+	border-radius:4px;
+ }
+
+ .tips p{
+	 text-align: center;
+ }
+
+
+ /* my recipes and tips and tricks textbox center */
+.align{
+	width: 60%;
+	margin:auto;
+ }
+
+
+
+/* my_recipes.html */
+.placeholdere{
+	font-family:sans-serif;
+	width:700px;
+	height:300px;
+	border-radius:4px;
+	resize:vertical;
+	padding:5px 5px;
+	border:2px solid gray;
+}
+
+
+.floatCancel{
+	clear:both;
+}
+
+/* about me */
+
+#about{
+	text-align: center;
+	font-size:25px;
+}
+#about .aboutPic{
+	margin-top:90px;
+}
+#about p{
+	margin:70px 0px;
+}
+#footer ul{
+	list-style-type: none;
+}
+#footer ul li{
+	line-height: 3;
+}
+
+
+/* active */
+
+@media(max-width:1150px){
+	.dropdown{
+		display: none;
+	}
+	.navbar{
+		justify-content: right;
+		margin-left:150px;
+	}
+}
+
+
+@media(max-width:692px){
+	fieldset {
+		margin-right:10%;
+		margin-left:20%;
+		padding-left:5%;
+	}
+	h1{
+		font-size:20px;
+	}
+	h2{
+		font-size:16px;
+	}
+	#thumbnails .desc{
+		opacity: 1;
+		margin:0;
+	}
+	.navbar{
+		margin-left:60px;
+	}
+}
+
+@media(max-width:615px){
+	fieldset {
+		margin:0;
+	}
+
+	.align{
+		float:left;
+		margin-bottom:10%;
+	 }
+	 .placeholdere{
+		width: 150%;
+		height: 150px;
+	 }
+	
+}
+

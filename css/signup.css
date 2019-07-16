@@ -1,0 +1,74 @@
+body {
+    width: 600px;
+    height:430px;
+    margin: 200px auto;
+    border: 10px #D8C858 solid;
+	text-align: center;
+	max-height:900px;
+	background-image: url("../images/cookies.jpg");
+	background-size: cover;	
+	
+}
+.LogBar{
+	border: 1px solid rgb(255,255,255);
+    border: 1px solid rgba(255,255,255, 0);
+    background-color: rgba(255, 255, 255, 0.75);
+}
+
+.LogBar dd{
+    margin-left:15px;
+}
+
+input[type=submit] {
+	width: 200px;
+    height: 50px;
+    transform: translateX(17%);
+	
+}
+input[type=reset] {
+	width: 200px;
+    height: 50px;
+    transform: translateX(17%);
+}
+
+input{
+	width: 200px;
+    height: 20px;
+}
+/* found exsit id */
+.existid{
+    display:block;
+    color:red;
+}
+
+
+@media(max-width:418px){
+
+    body{
+        width: 80%;
+        height:100%;
+        margin: 160px auto;
+        border: 10px #D8C858 solid;
+        text-align: center;
+        background-image: url("images/cookies.jpg");
+        background-size: cover;	
+        background-repeat: no-repeat;  
+    }
+    .LogBar dd{
+        margin-left:10px;
+    }
+   
+    
+    input[type=submit] {
+        width: 30%;
+        height: 30px;
+        transform: translateX(8%);
+        
+    }
+    input[type=reset] {
+        width: 30%;
+        height: 30px;
+        transform: translateX(8%);
+    }
+
+}
