@@ -10,5 +10,12 @@ I linked my demo web site.
 - Navigation bar using modal function
 
 
+# How to use
+- download files and change your database name.
+ ./php/db.php
+
+-DB file has my db tabels.
+ 
+
 # vesion
 - This is version 1.
