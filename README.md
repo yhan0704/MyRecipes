@@ -1,8 +1,10 @@
+[Demo](http://www.hycoding.tk/)
+
 # This is personal project.
 I linked my demo web site.
 
 # My Recipes
-- I used HTML,CSS,javascript,PHP,phpmyadmin.
+- I used HTML,CSS,javascript,PHP,phpMyAdmin.
 
 # Features
 - Restration 
@@ -16,6 +18,3 @@ I linked my demo web site.
 
 -DB file has my db tabels.
  
-
-# vesion
-- This is version 1.
